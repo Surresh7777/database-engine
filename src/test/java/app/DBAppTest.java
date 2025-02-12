@@ -38,7 +38,7 @@ public class DBAppTest {
 			randomNumber1 = (int) (Math.random() * 100000) + 1;
 			randomNumber2 = (int) (Math.random() * 100000) + 1;
 			newTableName = randomNumber1 + "" + randomNumber2;
-		}
+		 }
 	}
 
 	private static void createTable() throws DBAppException {
