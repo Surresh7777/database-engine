@@ -60,7 +60,7 @@ public class DBAppTest {
 		engine.init();
 		generateNewTableName();
 		createTable();
-	}
+   }
 
 	@Test
 	void testCreateTable_AlreadyExistingName_ShouldFailCreation() throws DBAppException {
